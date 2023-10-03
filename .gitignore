@@ -1,0 +1,8 @@
+.vscode/
+data/
+notebooks/
+__pycache__
+logs/
+.idea/
+experiments/
+.DS_Store
