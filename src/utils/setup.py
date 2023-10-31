@@ -12,7 +12,7 @@ _C.LOG_TO_FILE = False
 # The path to the config
 _C.CONFIG_PATH = None
 # The name of the model to be used
-_C.MODEL_NAME = "swin"
+_C.MODEL_NAME = None
 # IF Resnet3D, then model depth too
 _C.RESNET3D_DEPTH = None
 # Path to the train dataset - usually a json file
@@ -28,7 +28,7 @@ _C.LABELS_PATH = None
 # Version of the dataset: Relevant for Epic Kitchens
 _C.DATASET_VERSION = None
 # Type of the dataset: Can be video or layout
-_C.DATASET_TYPE = "video"
+_C.DATASET_TYPE = None
 # Train subset
 _C.TRAIN_SUBSET = None
 # Validation subset

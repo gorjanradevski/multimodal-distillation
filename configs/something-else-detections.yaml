@@ -1,0 +1,22 @@
+ACTION_WEIGHTS:
+  ACTION: 1.0
+LOG_TO_FILE: True
+BATCH_SIZE: 32
+DATASET_TYPE: layout
+EXPERIMENT_PATH: experiments/something-else-layout-detections
+LABELS_PATH: data/comp_split_detect/something-something-v2-labels.json
+LOG_TO_FILE: False
+MODEL_NAME: stlt
+TOTAL_ACTIONS:
+  ACTION: 174
+TRAIN_DATASET_NAME: something-something
+TRAIN_DATASET_PATH: data/something-something/comp_split_detect/train_dataset.json
+VAL_DATASET_NAME: something-something
+VAL_DATASET_PATH: data/something-something/comp_split_detect/val_dataset.json
+BATCH_SIZE: 128
+FRAME_UNIFORM: True
+NUM_FRAMES: 16
+WEIGHT_DECAY: 0.02
+LEARNING_RATE: 0.0001
+EPOCHS: 30
+WARMUP_EPOCHS: 3

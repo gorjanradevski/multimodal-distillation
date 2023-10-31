@@ -1,0 +1,24 @@
+TRAIN_DATASET_PATH: data/something-something/something-something-v2-train.json
+VAL_DATASET_PATH: data/something-something/something-something-v2-validation.json
+TRAIN_DATASET_NAME: something-something
+VAL_DATASET_NAME: something-something
+LABELS_PATH: data/something-something/something-something-v2-labels.json
+VIDEOS_PATH: data/something-something/dataset.hdf5
+EXPERIMENT_PATH: experiments/something-swin
+DATASET_TYPE: video
+TOTAL_ACTIONS: 
+  ACTION: 174
+ACTION_WEIGHTS: 
+  ACTION: 1.0
+AUGMENTATIONS:
+  VIDEO: ["VideoResize", "VideoRandomCrop", "VideoColorJitter"]
+NUM_WORKERS: 5
+MODEL_NAME: swin
+BACKBONE_MODEL_PATH: data/pretrained-backbones/swin_tiny_patch244_window877_kinetics400_1k.pth
+BATCH_SIZE: 16
+FRAME_UNIFORM: True
+NUM_FRAMES: 16
+WEIGHT_DECAY: 0.02 # As per SWIN paper (Section 4.1)
+LEARNING_RATE: 0.0001
+EPOCHS: 30
+WARMUP_EPOCHS: 3
