@@ -18,14 +18,14 @@ We store all data (video frames, optical flow frames, audios, etc.) is an effici
 
 ## Inference on Epic-Kitchens
 
-1. Download our model from [here](https://drive.google.com/drive/folders/1KUBiwGodTLqtuoRoxJVbpwBZ8uieJCtm?usp=sharing), and place it in `experiments/`.
+1. Download our Epic-Kitchens distilled model from [here](https://drive.google.com/drive/folders/1KUBiwGodTLqtuoRoxJVbpwBZ8uieJCtm?usp=sharing), and place it in `experiments/`.
 2. Run inference as indicated bellow:
 
 ```python
 python src/inference.py --experiment_path "experiments/epic-kitchens-swint-distill-flow-audio" --opts DATASET_TYPE "video"
 ```
 
-## Inference on Something-Something and Something-Else
+## Inference on Something-Something & Something-Else
 
 1. Download our Something-Else distilled model from [here](https://drive.google.com/drive/folders/1zK_dEGJP21xtgrZgc_gOPBPvWg-DKL2j?usp=sharing), and place it in `experiments/`.
 2. Run inference as indicated bellow:
