@@ -6,12 +6,10 @@ class LossesModule:
     def __init__(self, cfg: CfgNode):
         self.cfg = cfg
         self.criterions = {
-            "charades": nn.BCEWithLogitsLoss(),
             "charades-ego": nn.BCEWithLogitsLoss(),
             "something-something": nn.CrossEntropyLoss(),
             "egtea-gaze": nn.CrossEntropyLoss(),
             "EPIC-KITCHENS": nn.CrossEntropyLoss(),
-            "montalbano": nn.CrossEntropyLoss(),
         }
         self.action_names = [
             action
