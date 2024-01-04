@@ -1,8 +1,8 @@
-TRAIN_DATASET_PATH: data/something-something/comp_split_detect/train_dataset.json
-VAL_DATASET_PATH: data/something-something/comp_split_detect/val_dataset.json
+TRAIN_DATASET_PATH: data/something-something/something_else_detections/train_dataset.json
+VAL_DATASET_PATH: data/something-something/something_else_detections/val_dataset.json
 TRAIN_DATASET_NAME: something-something
 VAL_DATASET_NAME: something-something
-LABELS_PATH: data/something-something/comp_split_detect/something-something-v2-labels.json
+LABELS_PATH: data/something-something/something_else_detections/something-something-v2-labels.json
 VIDEOS_PATH: data/something-something/dataset.hdf5
 EXPERIMENT_PATH: experiments/something-else-swin
 DATASET_TYPE: video
