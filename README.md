@@ -9,7 +9,7 @@ This repository contains the implementation of the paper [Multimodal Distillatio
 The main dependencies that you need to install to reproduce the virtual environment are [PyTorch](https://pytorch.org/), and:
 
 ```shell
-pip install accelerate tqdm h5py yacs timm einops
+pip install accelerate tqdm h5py yacs timm einops natsort
 ```
 
 ## Downloading the pre-trained Swin-T model
