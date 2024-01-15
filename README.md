@@ -30,14 +30,21 @@ Please download and place the datasets inside `./data/` - `./data/something-some
 
 | Dataset | Model Type | Model architecture | Training modalities | Download Link |
 |----------|----------------|----------------|---------------|----------------------|
-| Something-Else | Distilled student | Swin-T | RGB frames + Optical Flow + Object detections | [Download](https://drive.google.com/drive/folders/1zK_dEGJP21xtgrZgc_gOPBPvWg-DKL2j?usp=sharing) |
-| Something-Something | Distilled student | Swin-T | RGB frames + Optical Flow + Object detections | [Download](https://drive.google.com/drive/folders/1qAZTKYjt-D2Y95BlTsjw2Ny9YWMWGnQC?usp=sharing) |
+| Something-Something | Distilled student | Swin-T | RGB frames + Optical Flow + Object Detections | [Download](https://drive.google.com/drive/folders/1qAZTKYjt-D2Y95BlTsjw2Ny9YWMWGnQC?usp=sharing) |
+| Something-Else | Distilled student | Swin-T | RGB frames + Optical Flow + Object Detections | [Download](https://drive.google.com/drive/folders/1zK_dEGJP21xtgrZgc_gOPBPvWg-DKL2j?usp=sharing) |
 | Epic-Kitchens | Distilled student | Swin-T | RGB frames + Optical Flow + Audio | [Download](https://drive.google.com/drive/folders/1KUBiwGodTLqtuoRoxJVbpwBZ8uieJCtm?usp=sharing) |
+| Something-Something | Unimodal | Swin-T | RGB Frames | [Download](https://drive.google.com/drive/folders/1YIcO65zWdMW1Cm11JF392b7uE4M1-XDB?usp=sharing) |
+| Something-Something | Unimodal | Swin-T | Optical Flow | [Download](https://drive.google.com/drive/folders/1GVMrpGtkv6fC6FgpWmEMykBb6HHCeQEE?usp=sharing) |
+| Something-Something | Unimodal | STLT | Object Detections | [Download](https://drive.google.com/drive/folders/1RbRUEpYFE4AqTrIJXNtfFFezfqal86Cp?usp=sharing) |
 | Something-Else | Unimodal | Swin-T | RGB frames | [Download](https://drive.google.com/drive/folders/1jNO-OBb6rmA2Gl0MS5x-gZmkG7lN5ogM?usp=sharing) |
 | Something-Else | Unimodal | Swin-T | Optical Flow | [Download](https://drive.google.com/drive/folders/1GSt-ZbAoVvGI8JWIXMaOphQm4FMWlbLe?usp=sharing) |
-| Something-Else | Unimodal | STLT | Object detections | [Download](https://drive.google.com/drive/folders/16hna0e1RnzcQ750FAD213tm5clD5e4X3?usp=sharing) |
+| Something-Else | Unimodal | STLT | Object Detections | [Download](https://drive.google.com/drive/folders/16hna0e1RnzcQ750FAD213tm5clD5e4X3?usp=sharing) |
+| Epic-Kitchens | Unimodal | Swin-T | RGB frames | [Download](https://drive.google.com/drive/folders/101kHwBAQTDbL8IpaODxZ8jG_aMurCioW?usp=sharing) |
 | Epic-Kitchens | Unimodal | Swin-T | Optical Flow | [Download](https://drive.google.com/drive/folders/1DBmfQo5-8AmRmrqt9ZmFL7B4EjoGLQsA?usp=sharing) |
 | Epic-Kitchens | Unimodal | Swin-T | Audio | [Download](https://drive.google.com/drive/folders/1yS9apZIUPHWUpQiXi0bCHXb5sfFsvY84?usp=sharing) |
+
+
+
 
 ## Inference on Epic-Kitchens
 
