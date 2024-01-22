@@ -28,7 +28,7 @@ class R3d(nn.Module):
         # Strip the last two layers (pooling & classifier)
         self.resnet = torch.nn.Sequential(*(list(resnet.children())[:-2]))
         self.avgpool = nn.AdaptiveAvgPool3d((1, 1, 1))
-        if self.cfg.RESNET3D_DEPTH == 18:
+        if self.cfg.RESNET3D_DEPTH < 50:
             self.projector = nn.Sequential(nn.Linear(512, 2048), nn.ReLU())
         # Build classifier
         self.classifiers = nn.ModuleDict(
@@ -90,7 +90,7 @@ class R3d(nn.Module):
         output = {}
         features = self.avgpool(self.resnet(video_frames)).flatten(1)
         features = features.contiguous()
-        if self.cfg.RESNET3D_DEPTH == 18:
+        if self.cfg.RESNET3D_DEPTH < 50:
             features = self.projector(features)
         # Classify
         for actions_name in self.classifiers.keys():
